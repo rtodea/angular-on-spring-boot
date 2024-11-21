@@ -14,3 +14,6 @@ function main() {
   install_ng_cli
 }
 
+
+main
+
