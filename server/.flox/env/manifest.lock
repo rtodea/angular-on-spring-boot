@@ -1,0 +1,272 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "jdk23": {
+        "pkg-path": "jdk23"
+      },
+      "maven": {
+        "pkg-path": "maven"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ],
+      "allow": {
+        "licenses": []
+      },
+      "semver": {}
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "jdk23",
+      "broken": false,
+      "derivation": "/nix/store/qyivm26l9l4vj4cj93rplh3r27cr9xc3-zulu-ca-jdk-23.0.0.drv",
+      "description": "Certified builds of OpenJDK",
+      "install_id": "jdk23",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "zulu-ca-jdk-23.0.0",
+      "pname": "jdk23",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "zulu-ca-jdk-23.0.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/z3gwlzrkdhn672rcqjgajiaqqfn95bz0-zulu-ca-jdk-23.0.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "jdk23",
+      "broken": false,
+      "derivation": "/nix/store/97wnsfz1h10ds30i2chvzhvvfaa781pf-openjdk-23.0.1+11.drv",
+      "description": "Open-source Java Development Kit",
+      "install_id": "jdk23",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "openjdk-23.0.1+11",
+      "pname": "jdk23",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "openjdk-23.0.1+11",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/a79lq5y0jbzmnkqm7q073ik8m4pf81xm-openjdk-23.0.1+11-debug",
+        "out": "/nix/store/a1k4dqs487q2xnimym388bkqg99agdsl-openjdk-23.0.1+11"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "jdk23",
+      "broken": false,
+      "derivation": "/nix/store/jlqhgwyfqngpgrzf5cr51hlfp2fg7r7w-zulu-ca-jdk-23.0.0.drv",
+      "description": "Certified builds of OpenJDK",
+      "install_id": "jdk23",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "zulu-ca-jdk-23.0.0",
+      "pname": "jdk23",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "zulu-ca-jdk-23.0.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/z8bpf73sqdl4z1j6g3hxbdxl0rksv5vn-zulu-ca-jdk-23.0.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "jdk23",
+      "broken": false,
+      "derivation": "/nix/store/1d7ldw837pksr7487ff3h6mfg59m6bky-openjdk-23.0.1+11.drv",
+      "description": "Open-source Java Development Kit",
+      "install_id": "jdk23",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "openjdk-23.0.1+11",
+      "pname": "jdk23",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "openjdk-23.0.1+11",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/0y34w6fn3lk9j18g0zhgr11rbwdfk98f-openjdk-23.0.1+11-debug",
+        "out": "/nix/store/71v1a1d4wqxihawzygjz1iqjmg5mbxhq-openjdk-23.0.1+11"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "maven",
+      "broken": false,
+      "derivation": "/nix/store/sg062ynrxz21gq1if74sc9f58f44y06n-maven-3.9.9.drv",
+      "description": "Build automation tool (used primarily for Java projects)",
+      "install_id": "maven",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "maven-3.9.9",
+      "pname": "maven",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.9.9",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/zl1k7v7x6mfbc6mqx2lfl3j9yk8hf2yw-maven-3.9.9"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "maven",
+      "broken": false,
+      "derivation": "/nix/store/0gqfilxrk5vbd06mz77f7prrr5i8fa2p-maven-3.9.9.drv",
+      "description": "Build automation tool (used primarily for Java projects)",
+      "install_id": "maven",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "maven-3.9.9",
+      "pname": "maven",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.9.9",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/m7igrfyvx2fk95hmr3yvlxch2yyg98l6-maven-3.9.9"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "maven",
+      "broken": false,
+      "derivation": "/nix/store/7hdv1jsav86zdjv8gxvfv2qz24nvkg61-maven-3.9.9.drv",
+      "description": "Build automation tool (used primarily for Java projects)",
+      "install_id": "maven",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "maven-3.9.9",
+      "pname": "maven",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.9.9",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/vb8ywhgdy2qds395ak67vj6ky0n629q4-maven-3.9.9"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "maven",
+      "broken": false,
+      "derivation": "/nix/store/hs3bypykwnfcdd8ss2lfnp6b2p6zk2n7-maven-3.9.9.drv",
+      "description": "Build automation tool (used primarily for Java projects)",
+      "install_id": "maven",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "maven-3.9.9",
+      "pname": "maven",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.9.9",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/5i6nxg6q0f20b4n5y37khzyhxypymaw9-maven-3.9.9"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
